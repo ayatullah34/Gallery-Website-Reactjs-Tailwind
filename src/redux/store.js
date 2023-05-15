@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
-import eteration from './eterationSlice'
+import pageInfo from './pageInfoSlice'
 
 export const store = configureStore({
-  reducer: { eteration },
+  reducer: { pageInfo },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: false,
